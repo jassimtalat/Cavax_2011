@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>cavax consulting &amp; travel gmbh</title>
+    <link href="css/stylesheet.css" rel="stylesheet" type="text/css" media="screen" />
+    <!-- include jQuery library -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- include Cycle plugin -->
+    <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+    <!--  initialize the slideshow when the DOM is ready -->
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('.enterlogo').cycle({
+            fx: 'slideY' // choose your transition type, ex: fade, scrollUp /Down /Left /Right, shuffle, zoom, fadeZoom, slideX /slideY, turnUp /Down /Left /Right, blindX /Y /Z, growX /Y , curtainX / Y, cover, , uncover, toss, wipe, etc...
+        });
+    });
+    </script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('.enterbutton').cycle({
+            fx: 'scrollDown' // choose your transition type, ex: fade, scrollUp /Down /Left /Right, shuffle, zoom, fadeZoom, slideX /slideY, turnUp /Down /Left /Right, blindX /Y /Z, growX /Y , curtainX / Y, cover, , uncover, toss, wipe, etc...
+        });
+    });
+    </script>
+
+</head>
+
+<body>
+    <div id="container">
+    	<div class="enterance">
+    	  <div class="enterlogo">
+              <img src="images/blank.gif"  width="1" height="1" />
+              <img src="images/enterancelogo.png" alt="cavax" />
+          </div>
+            
+            <div class="enterbutton">
+                <img src="images/blank.gif"  width="1" height="1" /><img src="images/blank.gif"  width="1" height="1" />
+                <a href="home.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('enterbutton','','images/bt-enter2.png',1)">
+                <img src="images/bt-enter1.png" alt="enter cavax" name="enterbutton" border="0" id="enterbutton" /></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

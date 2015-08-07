@@ -1,0 +1,191 @@
+@import url("reset.css");
+@import url("../fonts/fonts.css");
+
+
+body {
+	color: #b8cdd3;
+	background-color: #335d65;
+	margin:0; padding:0;
+}
+.clearfloat {
+	clear: both;
+	display: block;
+}
+
+#container {
+	margin: 0 auto;
+	width: 980px;
+}
+#container2 {
+	overflow: hidden;
+	background: #102d33;
+	margin: 0 auto;
+	width: 980px;
+}
+.header {
+	height: 370px;
+}
+.subheader {
+	height: 85px;
+}
+.enterance {
+	background: url(../images/enter-bg.jpg) no-repeat;
+	background-position: center center;
+	height: 600px;
+}
+.enterspacing {
+	height: 150px;
+}
+.enterlogo {
+	width: 417px;
+	margin: auto;
+}
+	
+.enterbutton{
+	width: 173px;
+	margin: auto;
+}
+#navigation-container{
+	padding: 0 55px;
+}
+.nav {
+	color: #fff;
+	font: normal 14px 'FrutigerLTStd47LightCondensed';
+	letter-spacing: 1px;
+
+}
+.nav li {
+	float: left;
+	padding: 20px;
+	padding-top: 35px;
+	display: block;
+}
+.nav li a {
+	color: #fff;
+	text-decoration: none;
+}
+.nav li a:hover {
+	color: #ec5812;
+}
+.nav-select {
+	background: #081315;
+	color: #ec5812;
+}
+#banner-container{
+	margin: 0 55px;
+}
+.banner-para {
+	font: normal 13px 'FrutigerLTStd45Light';
+}
+.banner-italic {
+	color: #8aa3ab;
+	font: normal 13px 'FrutigerLTStd46LightItalic';
+
+}
+.banner-text {
+	width: 500px;
+	float: left;
+}
+.banner-heading {
+	color: #fff;
+	font: normal 38px 'Museo900';
+	margin: 25px 0;
+}
+.slideshow {
+	float: right;
+	width: 350px;
+}
+.banner-sig {
+	color: #fff;
+	float: right;
+	font: normal 50px 'JellykaSaintAndrewsQueenRg';
+	margin: 0 20px;
+}
+#content-container {
+	background: #fff;
+	padding: 35px 55px;
+	overflow: hidden;
+}
+.content-box, .content-box-last, .content-box-wide{
+	float: left;
+	width: 273px;
+	margin: 0 24px 0 0;
+}
+.content-box-wide{
+	width: auto;
+}
+.content-box-last{
+	margin: 0;
+}
+.content-heading {
+	color: #102d33;
+	font: normal 19px 'Museo900';
+}
+.content-heading-bar {
+	height: 3px;
+	background: #ee6322;
+	margin: 5px 0 0 0;
+}
+.content-img {
+	margin: 3px 0 10px 0;
+}
+.content-text {
+	font: normal 12px 'FrutigerLTStd45Light';
+	color: #8aa3aa;
+}
+.content-text li {
+	color:#ee6422;
+	list-style-position: inside;
+	list-style-type: square;
+	font-size: 8px;
+	line-height: 20px;
+}
+.content-text li a {
+	font-size: 12px;
+	color:#8aa3aa;
+	text-decoration: uncerline;
+}
+.content-text li a:hover {
+	color: #325c64;
+}
+.content-more-bar {
+	height: 1px;
+	background: #cce0e6;
+	margin: 15px 0 5px 0;
+}
+.content-more, .content-more-white {
+	color: #ed6322;
+	font: normal 12px 'FrutigerLTStd57Condensed';
+}
+.content-more a {
+	color: #ed6322;
+	text-decoration: none;
+}
+.content-more a:hover {
+	text-decoration: underline;
+}
+.content-more-white a {
+	color: #fff;
+	text-decoration: none;
+}
+.content-more-white a:hover {
+	text-decoration: underline;
+}
+.darkertext {
+	color: #325c64;
+}
+.img-left {
+	float: left;
+	margin: 0 20px 0 0;
+}
+#footer-container {
+	padding: 20px 55px;
+	color: #325b63;
+	font: normal 12px 'FrutigerLTStd57Condensed';
+}
+#footer-container a {
+	color: #325b63;
+}
+#footer-container a:hover {
+	color: #8aa3aa;
+}
